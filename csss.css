@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+:root{
+    --gradiente: linar-gradient(135deg, #a20202)
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:crafty girls;
+    color: black;
+    line-height: 1.6;
+    background-color: white;
+}
+header{
+    background-color: deeppink;
+    color:black;
+    text-align: center;
+    background-color: rgb(255, 225, 241);
+}
+.fotoperfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border:3px solid white;
+}
+header h1{
+    font: size 28px;
+    margin-bottom:4px
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+nav a{
+    color:deeppink;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a.ativo{
+    border-bottom: 2px solid;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section{
+    background-color: rgb(255, 203, 231);
+    border-radius:10px;
+    padding: 24px;
+    box-shadow: 8px ;
+}
+section h2 {
+    color:deeppink;
+    margin-bottom: 12px;
+    border-bottom:2px solid;
+    padding-bottom: 8px;
+}
+section ul{
+    padding-left: 20px;
+}
+.grade-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px
+}
+.cartao-link{
+    flex: 1 1 calc(50% - 16px);
+    background-color:rgb(246, 247, 248) ;
+    padding: 16px;
+    text-decoration: none;
+    color:rgb(253, 154, 215)
+}
+.cartao-link h3{
+    color:deeppink;
+    margin-bottom: 6px;
+}
+.cartao-link:hover{
+    background-color: antiquewhite;
+}
+.card{
+background-color:rgb(246, 247, 248) ;
+border-radius: 8px;
+padding: 16px;
+margin-bottom: 16px;
+}
+.card h3{
+    color: deeppink;
+    margin-bottom: 8px;
+}
+.card a{
+    display: inline-block;
+    margin-top: 8px;
+    color: deeppink;
+    font-weight: 14px;
+}
